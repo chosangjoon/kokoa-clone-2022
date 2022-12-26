@@ -1,3 +1,3 @@
 #Kokoa Clone 2022 Update
 
-NamadCoder Clone Coding
+Clone Coding Practice with HTML and CSS
