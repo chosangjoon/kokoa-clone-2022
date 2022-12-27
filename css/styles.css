@@ -2,20 +2,30 @@
 @import "reset.css";
 @import "status-bar.css";
 @import "welcome-header.css";
-
+@import"variable.css";
 
 body{
     font-family: 'Andika', sans-serif;
 }
-
 #login-form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5px;
+    margin: 0px 30px;
 }
-#login-form>input{
-    margin: 5px;
+
+#login-form input{
+    margin-bottom: 15px;
     width: 100%;
-    padding: 5px;
+    padding: 15px 0px;
+    border: none;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    font-size: 18px;
+    transition : border-color 0.3s ease-in-out
+}
+#login-form input::placeholder{
+    color:rgba(0,0,0,0.4);
+}
+#login-form input:focus{
+    border-color: var(--yellow);
 }
