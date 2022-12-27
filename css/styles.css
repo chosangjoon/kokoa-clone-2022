@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
 @import "reset.css";
 @import"variable.css";
+
 /*Components*/
 @import "components/status-bar.css";
 @import "components/welcome-header.css";
+@import "components/nav-bar.css";
+
 @import"components/login-form.css";
 
 
