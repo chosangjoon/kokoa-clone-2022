@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
 @import "reset.css";
-@import "status-bar.css";
-@import "welcome-header.css";
 @import"variable.css";
-@import"login-form.css";
+/*Components*/
+@import "components/status-bar.css";
+@import "components/welcome-header.css";
+@import"components/login-form.css";
+
 
 body{
     font-family: 'Andika', sans-serif;
