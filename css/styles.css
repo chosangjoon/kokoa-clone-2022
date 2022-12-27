@@ -1,26 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
+@import "reset.css";
+@import "status-bar.css";
+@import "welcome-header.css";
+
+
 body{
     font-family: 'Andika', sans-serif;
 }
 
-.status-bar{
+#login-form{
     display: flex;
-    justify-content: center;
-}
-.status-bar_column{
-    width: 33%;
-
-}
-.status-bar_column:first-child span{
-    margin-right: 5px;
-}
-.status-bar_column:nth-child(2) {
-display: flex;
-justify-content: center;
-}
-.status-bar_column:nth-child(3){
-    display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
     align-items: center;
+    margin: 5px;
 }
-
+#login-form>input{
+    margin: 5px;
+    width: 100%;
+    padding: 5px;
+}
