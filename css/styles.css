@@ -3,6 +3,7 @@
 @import "status-bar.css";
 @import "welcome-header.css";
 @import"variable.css";
+@import"login-form.css";
 
 body{
     font-family: 'Andika', sans-serif;
