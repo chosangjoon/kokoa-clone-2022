@@ -2,6 +2,7 @@
 .user-component_column:first-child{
     display: flex;
     align-items: center;
+    margin: 5px;
 }
 .user-component_avatar{
     width:80px;
@@ -12,4 +13,9 @@
 .user-component_title{
     font-weight: 600;
     font-size: 22px;
+}
+.user-compnnent_subtitle{
+    margin-top: 5px;
+    font-size: 17x;
+    color: rgba(0, 0, 0, 0.5);
 }
