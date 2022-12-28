@@ -1,8 +1,10 @@
-.user-component ,
+.friends_screen{
+    padding: 0px var(--horizontal-space);
+}
+.user-component,
 .user-component_column:first-child{
     display: flex;
     align-items: center;
-    margin: 5px;
 }
 .user-component_avatar{
     width:80px;
@@ -18,4 +20,18 @@
     margin-top: 5px;
     font-size: 17x;
     color: rgba(0, 0, 0, 0.5);
+}
+.user-component_avatar-xl{
+    width: 90px;
+    height: 90px;
+}
+.friends-screen_channel{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--color-gray);
+    margin-top:15px;
+    padding-top: 10px;
+}
+.friends-screen_channel i{
+    color: var(--color-gray);
 }
