@@ -13,9 +13,10 @@
     align-items: center;
 }
 .recommended-friends{
-    padding: 25px 0px;
+    padding: 15px 0px;
     border-top: var(--main-border);
-    /* border-bottom: var(--main-border); */
+    border-bottom: var(--main-border);
+    margin-bottom: 15px;
 }
 .recommended-friends span{
     color: var(--color-thin-gray);
@@ -27,4 +28,9 @@
 .recommended-friends_title{
     color: var(--color-thin-gray);
     font-size: 15px;
+}
+.open-chat-header{
+    display: flex;
+    justify-content: space-between;
+    color: var(--color-thin-gray);
 }
