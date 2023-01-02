@@ -12,3 +12,19 @@
     flex-direction: column;
     align-items: center;
 }
+.recommended-friends{
+    padding: 25px 0px;
+    border-top: var(--main-border);
+    /* border-bottom: var(--main-border); */
+}
+.recommended-friends span{
+    color: var(--color-thin-gray);
+    margin: 110px 0px;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+.recommended-friends_title{
+    color: var(--color-thin-gray);
+    font-size: 15px;
+}

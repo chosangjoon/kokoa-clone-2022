@@ -53,7 +53,7 @@
 .screen_channel-header{
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid var(--color-gray);
+    border-top: var(--main-border);
     color: var(--color-thin-gray);
     padding-top: 10px;
 }
