@@ -12,5 +12,12 @@
 }
 
 .screen-header_icons span{
+    position: relative;
     margin-left: 30px;
+}
+
+.screen-header_icons-option-notify{
+    position: absolute;
+    left: 73px;
+    bottom: 23px;
 }
