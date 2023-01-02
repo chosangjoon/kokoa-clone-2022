@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends-Kokoa Clone</title>
+    <title>Chats-Kokoa Clone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -27,62 +27,29 @@
         <h1 class="screen-header_title">Chats</h1>
         <div class="screen-header_icons">
             <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-            <span><i class="status-comment fa-regular fa-comment fa-xl"><i class="fa-solid fa-plus fa-xs"></i></i></span>
+            <span><i class="far fa-comment-dots fa-lg"></i></span>
             <span><i class="fa-solid fa-music fa-lg"></i></span>
             <span><i class="fa-solid fa-gear fa-lg"></i></span>
         </div>
     </header>
 
-    <a id="friends-display-link">
-        <i class="fa-solid fa-circle-info fa-lg"></i>Friend's Names Display
-        <i class="fa-solid fa-angle-right fa-1.5x"></i>
-    </a>
-    <!-- /////////////////////////* friends screen*/////////////// -->
-    <main class="friends_screen">
-        <!-- ////////////////////* My user component*////////////// -->
-        <div class="user-component">
-            <div class="user-component_column">
-                <img src="screenshots/yuri.jpg" class="user-component_avatar user-component_avatar-xl"/>
-                <div class="usercomponent_text">
-                    <h4 class="user-component_text user-component_text-mytitle">Yuri</h4>
-                    <h6 class="user-compnnent_subtitle">subtitle:profile message</h6>
-                </div>
-            </div>
-            <div class="user-component_column"></div>
-        </div>
-        <div class="friends-screen_channel">
-
-            <div class="friends-screen_channel-header">
-                <span>Channel</span>
-                <i class="fa-solid fa-chevron-up"></i>
-            </div>
+    <main class="main-screen">
            <!-- ///// /////////////*channel user component*///////////////////// -->
             <div class="user-component">
                 <div class="user-component_column">
-                    <img src="screenshots/kakao channel.png" class="user-component_avatar user-cpmponent_avatar-sm"/>
+                    <img src="screenshots/yuri.jpg" class="user-component_avatar user-cpmponent_avatar-sm"/>
                     <div class="usercomponent_text">
-                        <h4 class="user-component_text user-component_text-channel-title">Channel</h4>                    </div>
+                        <h4 class="user-component_text user-component_text-Chat-title">Yuri</h4>   
+                        <h6 class="user-compnnent_subtitle">Hi Hi</h6>
+                    </div>
                 </div>
                 <div class="user-component_column">
-                    <span>2</span>
-                    <i class="fa-solid fa-chevron-right"></i>
+                    <span class="user-component_time">21:22</span>
+                    <span class="badge">1</span>
+
                 </div>
             </div>
 
-            <div class="friends-screen_channel-header">
-                <span>Friends</span>
-                <i class="fa-solid fa-chevron-up"></i>
-            </div>
-            <!-- /*////////////another user component maybe*////////////////////// -->
-            <div class="user-component">
-                <div class="user-component_column">
-                    <img src="screenshots/SSammu.jpg" class="user-component_avatar user-cpmponent_avatar-sm"/>
-                    <div class="usercomponent_text">
-                        <h4 class="user-component_text user-component_text-channel-title">Ssam mu</h4>                    </div>
-                </div>
-                <div class="user-component_column">
-                </div>
-            </div>
         </div>
     </main>
 
@@ -95,7 +62,7 @@
             </li>
             <li class="nav_btn">    
                 <a class="nav_link" href="chats.html">
-                    <span class="nav_notification">1</span>
+                    <span class="nav_notification badge">1</span>
                     <i class="fa-solid fa-comment fa-2x"></i>
                 </a>
             </li>
