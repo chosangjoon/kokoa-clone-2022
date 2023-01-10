@@ -15,9 +15,13 @@
     position: relative;
     margin-left: 30px;
 }
-
 .screen-header_icons-option-notify{
     position: absolute;
     left: 73px;
+    bottom: 23px;
+}
+.screen-header_icons-option-notify2{
+    position: absolute;
+    left: 128px;
     bottom: 23px;
 }
