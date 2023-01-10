@@ -2,5 +2,8 @@
     margin-top: 50px;
     border-top: var(--main-border);
     padding-top: 40px;
-
+}
+.more-suggestions_title{
+    margin-bottom: 30px;
+    color: black;
 }
