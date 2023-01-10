@@ -19,6 +19,9 @@
 .user-component_title{
     font-weight: 600;
 }
+.user-component_text{
+    position: relative;
+}
 .user-component_text-mytitle,
 .user-component_text-Chat-title{
     font-weight: 600;
@@ -59,4 +62,4 @@
 }
 .friends-screen_channel i{
     color: var(--color-gray);
-} 
+}

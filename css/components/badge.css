@@ -16,3 +16,19 @@
     border-radius: 50%;
     background-color: tomato;
 }
+.bang-badge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 100%;
+    padding: 3px;
+    font-size: 14px;
+    bottom: -2px;
+    left: 145px;
+    
+}
