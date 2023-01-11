@@ -1,0 +1,11 @@
+.settings_setting{
+    padding: 20px 0;
+    border-bottom: var(--main-border);
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+}
+.settings_setting i{
+    margin-right: 15px;
+    font-size: 22px;
+}
