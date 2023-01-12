@@ -1,0 +1,39 @@
+.chat-screen{
+    background-color: #abc1d1;
+    /* height: 1100vh; */
+}
+.chat-screen .status-bar{
+    z-index: 2;
+    background-color: #abc1d1;
+
+}
+.chat-screen .alt-header{
+    position: fixed;
+    width: 100%;
+    background-color: #abc1d1;
+    box-sizing: border-box;
+    z-index: 1;
+}
+.main-screen-chat{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 15px;
+}
+.chat-timestamp{
+    color: white;
+    background-color: #92a4b2;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.message-row{
+    width: 100%;
+    display: flex;
+}
+.message-row img{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
