@@ -3,9 +3,13 @@
     border-bottom: var(--main-border);
     font-size: 19px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 .settings_setting i{
     margin-right: 15px;
     font-size: 22px;
+}
+.settings_setting-coulmn:last-child{
+    opacity: 0.7;
 }
