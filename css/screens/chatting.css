@@ -141,8 +141,6 @@
     color: black;
     border: none;
     position: absolute;
-    right: 3px;
-    top: 3px;
 }
 
 .reply_column:last-child > i{

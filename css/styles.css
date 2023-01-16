@@ -10,6 +10,8 @@
 @import "components/user-components.css";
 @import"components/badge.css";
 @import"components/icon-row.css";
+@import"components/no-mobile.css";
+
 /* Screens */
 @import"screens/welcome-header.css";
 @import"screens/login-form.css";
